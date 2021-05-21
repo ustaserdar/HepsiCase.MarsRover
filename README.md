@@ -45,13 +45,16 @@ and heading
 
 # Test Input
 
-5 5
-1 2 N
-LMLMLMLMM
-3 3 E
-MMRMMRMRRM
+- 5 5 **(Size of a grid)**
+
+- 1 2 N **(Position of first rover)**
+- LMLMLMLMM **(Commands for first rover)**
+
+- 3 3 E **(Position of second rover)**
+- MMRMMRMRRM **(Commands for second rover)**
 
 # Expected Output
 
-1 3 N
-5 1 E
+- 1 3 N **(First rover output)**
+
+- 5 1 E **(Second rover output)**
